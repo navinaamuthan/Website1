@@ -1,0 +1,184 @@
+body {
+
+    margin: 0;
+    
+    margin-top: 50px;
+    font-family: sans-serif; 
+    
+    }
+    
+     
+    
+    header {
+    
+    display: flex;
+    
+    position: fixed;
+    
+    top: 0;
+    
+    left: 0;
+    
+    right: 0;
+    
+    height: 50px;
+    
+    line-height: 50px;
+    
+    background-color:rgba(146, 71, 17, 0.404);
+    
+    }
+    
+     
+    
+    header * {
+    
+    display: inline;
+    
+    height: 50px;
+    
+    }
+    
+     
+    
+    headerul {
+    
+    padding: 0;
+    
+    }
+    
+     
+    
+    header li {
+    
+    margin-left: 200px;
+    
+    }
+    
+     
+    
+    section {
+    
+    height: 100vh;
+    
+    border: 5px solid black;
+    
+    display: flex;
+    
+    justify-content: space-evenly;
+    
+    align-items: center;
+    
+    text-align: center;
+    
+    }
+    
+    background-size: cover; /* Add this line */
+
+background-position: center; /* Add this line */
+
+background-repeat: no-repeat; /* Add this line */
+
+background-attachment: fixed; /* Add this line */
+     
+    
+    #hero .profile-img {
+    
+    width: 150px;
+    
+    }
+    
+
+    
+     
+    
+    footer {
+    
+    text-align: center;
+    
+    padding: 500px;
+    
+    }
+    #hero h1 {
+
+        font-size: 55px;
+        font-family:"cursive","Brush Script MT"
+        
+        }
+        
+         
+        
+        section h2 {
+        
+        font-size: 3.5em;
+        font-family:fantasy;
+        
+        }
+        
+         
+        
+        section h3 {
+        
+        font-size: 1.5em;
+        
+        }
+        
+     #hero h3{
+             font-size: 25px;
+             font-family: "cursive","Lucida Handwriting";
+
+     }    
+        
+        header a {
+        
+        text-decoration: none;
+        
+        color: black;
+        
+        }
+        #hero .paragraph  {
+
+            font-style: normal;
+            font-size: 0.5cm;
+            font-family:"fantasy" , "Papyrus";
+            letter-spacing: 1px;
+            
+
+        }
+        #hero {
+
+
+            background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('images/gallery-img1.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        
+         
+        
+        #about {
+        
+            background-image: linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6)), url('images/gallery-img2.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        #about .paragraph2{
+               font-size: 32px;
+               font-family: "cursive" , "Brush Script MT";
+               font-variant: normal;
+        }
+         
+        
+        #contact {
+        
+            background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('images/gallery-img13.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        #contact .form{
+                  font-family: Georgia, 'Times New Roman', Times, serif;
+                  font-size: 23px;
+
+        }
